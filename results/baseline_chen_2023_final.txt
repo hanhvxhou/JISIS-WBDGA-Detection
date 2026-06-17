@@ -1,0 +1,49 @@
+======================================================================
+  chen_2023 — Final Results (best epoch 6, time 585s)
+======================================================================
+
+  ── TRAIN (best model) ──
+  Accuracy    : 99.75%
+  F1-Score    : 99.75%
+  Precision   : 99.86%
+  Recall      : 99.63%
+  FPR         : 0.14%
+  FNR         : 0.37%
+  TP/FP/FN/TN : 54398 / 74 / 202 / 54526
+
+  ── VAL   (best model) ──
+  Accuracy    : 96.32%
+  F1-Score    : 96.31%
+  Precision   : 96.80%
+  Recall      : 95.82%
+  FPR         : 3.17%
+  FNR         : 4.18%
+  TP/FP/FN/TN : 11211 / 371 / 489 / 11329
+
+  ── TEST ──
+  Accuracy    : 96.29%
+  F1-Score    : 96.27%
+  Precision   : 96.82%
+  Recall      : 95.74%
+  FPR         : 3.15%
+  FNR         : 4.26%
+  TP/FP/FN/TN : 11201 / 368 / 499 / 11332
+
+  ── Per-family Detection Rate (testing subset) ──
+  Family                Total      TP        DR
+  ----------------------------------------------
+  banjori                 900     893    99.22%
+  bigviktor               900     863    95.89%
+  gozi_gpl                900     871    96.78%
+  gozi_luther             900     847    94.11%
+  gozi_nasa               900     859    95.44%
+  gozi_rfc                900     858    95.33%
+  matsnu                  900     850    94.44%
+  ngioweb                 900     837    93.00%
+  nymaim                  900     744    82.67%
+  pizd                    900     896    99.56%
+  suppobox_1              900     897    99.67%
+  suppobox_2              900     886    98.44%
+  suppobox_3              900     900   100.00%
+  ----------------------------------------------
+  benign                11700   11332    96.85%

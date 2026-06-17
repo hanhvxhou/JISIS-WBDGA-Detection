@@ -1,0 +1,49 @@
+======================================================================
+  vu_2021 — Final Results (time 0s)
+======================================================================
+
+  ── TRAIN ──
+  Accuracy    : 96.33%
+  F1-Score    : 96.25%
+  Precision   : 98.44%
+  Recall      : 94.16%
+  FPR         : 1.49%
+  FNR         : 5.84%
+  TP/FP/FN/TN : 51409 / 816 / 3191 / 53784
+
+  ── VAL ──
+  Accuracy    : 85.38%
+  F1-Score    : 85.12%
+  Precision   : 86.66%
+  Recall      : 83.64%
+  FPR         : 12.88%
+  FNR         : 16.36%
+  TP/FP/FN/TN : 9786 / 1507 / 1914 / 10193
+
+  ── TEST ──
+  Accuracy    : 85.77%
+  F1-Score    : 85.49%
+  Precision   : 87.20%
+  Recall      : 83.85%
+  FPR         : 12.31%
+  FNR         : 16.15%
+  TP/FP/FN/TN : 9810 / 1440 / 1890 / 10260
+
+  ── Per-family Detection Rate (testing subset) ──
+  Family                Total      TP        DR
+  ----------------------------------------------
+  banjori                 900     864    96.00%
+  bigviktor               900     736    81.78%
+  gozi_gpl                900     706    78.44%
+  gozi_luther             900     727    80.78%
+  gozi_nasa               900     643    71.44%
+  gozi_rfc                900     647    71.89%
+  matsnu                  900     816    90.67%
+  ngioweb                 900     717    79.67%
+  nymaim                  900     686    76.22%
+  pizd                    900     838    93.11%
+  suppobox_1              900     803    89.22%
+  suppobox_2              900     731    81.22%
+  suppobox_3              900     896    99.56%
+  ----------------------------------------------
+  benign                11700   10260    87.69%

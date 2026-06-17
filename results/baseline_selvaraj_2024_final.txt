@@ -1,0 +1,49 @@
+======================================================================
+  selvaraj_2024 — Final Results (best epoch 2, time 288s)
+======================================================================
+
+  ── TRAIN (best model) ──
+  Accuracy    : 98.79%
+  F1-Score    : 98.78%
+  Precision   : 99.08%
+  Recall      : 98.49%
+  FPR         : 0.91%
+  FNR         : 1.51%
+  TP/FP/FN/TN : 53775 / 498 / 825 / 54102
+
+  ── VAL   (best model) ──
+  Accuracy    : 93.80%
+  F1-Score    : 93.79%
+  Precision   : 93.91%
+  Recall      : 93.68%
+  FPR         : 6.08%
+  FNR         : 6.32%
+  TP/FP/FN/TN : 10960 / 711 / 740 / 10989
+
+  ── TEST ──
+  Accuracy    : 93.51%
+  F1-Score    : 93.48%
+  Precision   : 93.88%
+  Recall      : 93.09%
+  FPR         : 6.07%
+  FNR         : 6.91%
+  TP/FP/FN/TN : 10891 / 710 / 809 / 10990
+
+  ── Per-family Detection Rate (testing subset) ──
+  Family                Total      TP        DR
+  ----------------------------------------------
+  banjori                 900     893    99.22%
+  bigviktor               900     856    95.11%
+  gozi_gpl                900     853    94.78%
+  gozi_luther             900     837    93.00%
+  gozi_nasa               900     863    95.89%
+  gozi_rfc                900     852    94.67%
+  matsnu                  900     809    89.89%
+  ngioweb                 900     803    89.22%
+  nymaim                  900     578    64.22%
+  pizd                    900     894    99.33%
+  suppobox_1              900     891    99.00%
+  suppobox_2              900     868    96.44%
+  suppobox_3              900     894    99.33%
+  ----------------------------------------------
+  benign                11700   10990    93.93%

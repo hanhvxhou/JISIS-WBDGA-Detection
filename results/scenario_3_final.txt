@@ -1,0 +1,49 @@
+======================================================================
+  SCENARIO 3 — Final Results  (best epoch: 14, training time: 4672s)
+======================================================================
+
+  ── TRAIN  (best model, epoch 14) ──
+  Accuracy    : 99.96%
+  F1-Score    : 99.96%
+  Precision   : 99.95%
+  Recall      : 99.97%
+  FPR         : 0.05%
+  FNR         : 0.03%
+  TP/FP/FN/TN : 54584 / 28 / 16 / 54572
+
+  ── VAL    (best model, epoch 14) ──
+  Accuracy    : 98.08%
+  F1-Score    : 98.09%
+  Precision   : 97.78%
+  Recall      : 98.39%
+  FPR         : 2.23%
+  FNR         : 1.61%
+  TP/FP/FN/TN : 11512 / 261 / 188 / 11439
+
+  ── TEST ──
+  Accuracy    : 98.13%
+  F1-Score    : 98.13%
+  Precision   : 97.84%
+  Recall      : 98.43%
+  FPR         : 2.17%
+  FNR         : 1.57%
+  TP/FP/FN/TN : 11516 / 254 / 184 / 11446
+
+  ── Per-family Detection Rate (testing subset) ──
+  Family                Total      TP        DR
+  ----------------------------------------------
+  banjori                 900     898    99.78%
+  bigviktor               900     878    97.56%
+  gozi_gpl                900     898    99.78%
+  gozi_luther             900     884    98.22%
+  gozi_nasa               900     876    97.33%
+  gozi_rfc                900     862    95.78%
+  matsnu                  900     884    98.22%
+  ngioweb                 900     898    99.78%
+  nymaim                  900     842    93.56%
+  pizd                    900     899    99.89%
+  suppobox_1              900     900   100.00%
+  suppobox_2              900     897    99.67%
+  suppobox_3              900     900   100.00%
+  ----------------------------------------------
+  benign                11700   11446    97.83%

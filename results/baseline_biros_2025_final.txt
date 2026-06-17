@@ -1,0 +1,49 @@
+======================================================================
+  biros_2025 — Final Results (best epoch 27, time 358s)
+======================================================================
+
+  ── TRAIN (best model) ──
+  Accuracy    : 99.95%
+  F1-Score    : 99.95%
+  Precision   : 99.92%
+  Recall      : 99.97%
+  FPR         : 0.08%
+  FNR         : 0.03%
+  TP/FP/FN/TN : 54584 / 42 / 16 / 54558
+
+  ── VAL   (best model) ──
+  Accuracy    : 94.01%
+  F1-Score    : 94.07%
+  Precision   : 93.05%
+  Recall      : 95.12%
+  FPR         : 7.10%
+  FNR         : 4.88%
+  TP/FP/FN/TN : 11129 / 831 / 571 / 10869
+
+  ── TEST ──
+  Accuracy    : 93.96%
+  F1-Score    : 94.02%
+  Precision   : 93.10%
+  Recall      : 94.96%
+  FPR         : 7.04%
+  FNR         : 5.04%
+  TP/FP/FN/TN : 11110 / 824 / 590 / 10876
+
+  ── Per-family Detection Rate (testing subset) ──
+  Family                Total      TP        DR
+  ----------------------------------------------
+  banjori                 900     895    99.44%
+  bigviktor               900     867    96.33%
+  gozi_gpl                900     847    94.11%
+  gozi_luther             900     858    95.33%
+  gozi_nasa               900     866    96.22%
+  gozi_rfc                900     877    97.44%
+  matsnu                  900     841    93.44%
+  ngioweb                 900     831    92.33%
+  nymaim                  900     647    71.89%
+  pizd                    900     899    99.89%
+  suppobox_1              900     896    99.56%
+  suppobox_2              900     888    98.67%
+  suppobox_3              900     898    99.78%
+  ----------------------------------------------
+  benign                11700   10876    92.96%

@@ -1,0 +1,49 @@
+======================================================================
+  charan_2020 — Final Results (time 14s)
+======================================================================
+
+  ── TRAIN ──
+  Accuracy    : 78.65%
+  F1-Score    : 79.45%
+  Precision   : 76.57%
+  Recall      : 82.57%
+  FPR         : 25.27%
+  FNR         : 17.43%
+  TP/FP/FN/TN : 45081 / 13796 / 9519 / 40804
+
+  ── VAL ──
+  Accuracy    : 77.97%
+  F1-Score    : 78.82%
+  Precision   : 75.88%
+  Recall      : 82.00%
+  FPR         : 26.06%
+  FNR         : 18.00%
+  TP/FP/FN/TN : 9594 / 3049 / 2106 / 8651
+
+  ── TEST ──
+  Accuracy    : 77.74%
+  F1-Score    : 78.63%
+  Precision   : 75.63%
+  Recall      : 81.87%
+  FPR         : 26.38%
+  FNR         : 18.13%
+  TP/FP/FN/TN : 9579 / 3087 / 2121 / 8613
+
+  ── Per-family Detection Rate (testing subset) ──
+  Family                Total      TP        DR
+  ----------------------------------------------
+  banjori                 900     640    71.11%
+  bigviktor               900     712    79.11%
+  gozi_gpl                900     796    88.44%
+  gozi_luther             900     778    86.44%
+  gozi_nasa               900     809    89.89%
+  gozi_rfc                900     795    88.33%
+  matsnu                  900     850    94.44%
+  ngioweb                 900     629    69.89%
+  nymaim                  900     628    69.78%
+  pizd                    900     836    92.89%
+  suppobox_1              900     825    91.67%
+  suppobox_2              900     385    42.78%
+  suppobox_3              900     896    99.56%
+  ----------------------------------------------
+  benign                11700    8613    73.62%
