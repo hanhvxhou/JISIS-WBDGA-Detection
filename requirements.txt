@@ -1,0 +1,25 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  Detecting Word-Based DGA Botnets Using BERT Model and Features of Domain Names
+#  Python dependencies (tested with Python 3.10 – 3.12)
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Core scientific stack
+numpy>=1.24,<3.0
+pandas>=2.0,<3.0
+
+# Deep learning — PyTorch
+# NOTE: install the CUDA-matching wheel from https://pytorch.org/get-started/locally/
+#       (e.g. on RTX 5070 Ti / CUDA 12.x: `pip install torch --index-url https://download.pytorch.org/whl/cu121`)
+torch>=2.1,<3.0
+
+# Hugging Face Transformers (BERT)
+transformers>=4.40,<5.0
+
+# Classical ML — for Vu_2021 (J48) and Charan_2020 (GradientBoosting)
+scikit-learn>=1.3,<2.0
+
+# Probabilistic English-word splitter — used by Selvaraj_2024, Biros_2025, Chen_2023
+wordninja>=2.0
+
+# Optional but recommended for faster Hugging Face tokenization
+tokenizers>=0.15
